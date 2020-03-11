@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="ru.ifmo.rain.softwerke.producer.HelloWorldImpl" activate="activate" deactivate="deactivate">
+        
+    <service servicefactory="false">
+                
+        <provide interface="ru.ifmo.rain.softwerke.producer.HelloWorld"/>
+            
+    </service>
+        
+    <implementation class="ru.ifmo.rain.softwerke.producer.HelloWorldImpl"/>
+    
+</scr:component>
